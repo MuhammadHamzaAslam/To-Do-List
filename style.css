@@ -1,0 +1,77 @@
+body{
+    background-color: #000;
+}
+section{
+    width: 70vh;
+    border: 1px solid red;
+    padding: 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    outline: 3px groove #000;
+    outline-offset: 5px;
+    border: none;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px !important;
+}
+input{
+    border: none;
+    flex: 1;
+    outline: none;
+    /* border: 1px solid red; */
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 30px;
+}
+#btn{
+    margin-right: 10px;
+    width: 100px;
+    background-color: #26026f;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    color: white;
+    /* padding: 16px 30px; */
+    padding: 15px;
+    border-radius: 30px;
+}
+li {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    cursor: pointer;
+}
+.xyz{
+    /* margin-left: 305px !important; */
+    /* border: 5px solid red; */
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.abc {
+    color: red; 
+}
+img{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+::placeholder{
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
