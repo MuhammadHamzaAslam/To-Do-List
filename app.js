@@ -76,7 +76,7 @@ button.addEventListener("click", () => {
 });
 
 userInput.addEventListener("keydown", (event) => {
-    if (event.key === "Enter") {
+    if (event.key == "Enter") {
         addTask();
     }
 });

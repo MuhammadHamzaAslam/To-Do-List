@@ -1,12 +1,24 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 body{
     background-color: #000;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* align-self: center; */
 }
 section{
     width: 70vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 10px;
     background-color: white;
     border-radius: 30px;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 5px 125px wheat;
 }
 .div{
     display: flex;
@@ -31,7 +43,7 @@ input{
 #btn{
     margin-right: 10px;
     width: 100px;
-    background-color: #26026f;
+    background-color: #50c64b;
     border: none;
     cursor: pointer;
     font-weight: 700;
@@ -42,13 +54,10 @@ input{
 }
 li {
     display: flex;
-    /* justify-content: space-between; */
+    /* justify-content: ce; */
     align-items: center;
     cursor: pointer;
-}
-.xyz{
-    /* margin-left: 305px !important; */
-    /* border: 5px solid red; */
+    font-size: 22px;
 }
 button{
     border: none;
@@ -68,10 +77,18 @@ img{
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 22pt;
 }
 ::placeholder{
     padding-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 15px;
+}
+@media screen and (min-width:0px) and (max-width:597px) {
+    section{
+        width: auto;
+    }
 }
